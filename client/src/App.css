@@ -1,0 +1,74 @@
+.app {
+    text-align: center;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  h1 {
+    color: #fefefe;
+  }
+  .inputs {
+    height: 400px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: grey;
+  }
+  
+  .inputs input {
+    width: 250px;
+    height: 50px;
+    font-size: 1rem;
+    margin: 10px;
+    padding-left: 10px;
+    border: none;
+    outline: none;
+  }
+  
+  
+  button {
+    margin-top: 3%;
+    height: 50px;
+    width: 250px;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    font-weight: 700;
+    background-color: rgb(48, 48, 48);
+    color: #fefefe;
+    
+  }
+  button:hover {
+    background-color: #fefeef;
+    color: #000;
+    cursor: pointer;
+  }
+  
+  .friend-list {
+    margin: 2% 0;
+  
+  }
+  .friend-card {
+    margin: 2%;
+  }
+  
+  .friend-card-btn {
+    margin: 2%;
+    height: 40px;
+    width: 80px;
+  }
+  
+  .modal-input {
+    margin: 2%;
+  }
+  .modal-footer {
+      display: flex;
+      flex-wrap: nowrap;
+  }
+  
